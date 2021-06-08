@@ -5,7 +5,7 @@ let newDate = 1 + d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
 
 // my personal api key to use in url to get data
 let _basicurl = 'http://api.openweathermap.org/data/2.5/weather?zip=';
-const _apiKey = '&appid=7ddd280e05cda94c62d6a13cff265b1b';
+const _apiKey = '&appid=7ddd280e05cda94c62d6a13cff265b1b&units=imperial';
 
 // adding event listener to button with id "generate"
 document.querySelector('#generate').addEventListener('click', generateAction);
